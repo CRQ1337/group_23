@@ -1,0 +1,133 @@
+ 1. Создать файл “new.json” 
+>>> touch new.json
+ 
+2. Добавить файл под гит. 
+>>> git add new.json либо git add .
+ 
+3. Закоммитить файл. 
+>>> git commit -m 'added new.json'
+ 
+4. Отправить файл на внешний GitHub репозиторий. 
+>>> git push
+
+5. Создать файлы new2.json, new2.xml, new2.txt
+>>> touch new2.json new2.xml new2.txt
+
+6. Добавить файы под гит. 
+>>> git add .
+
+7. Закоммитить файлы.
+>>> git commit -m 'added files new2.json new2.xml new2.txt'
+ 
+8. Отправить файлы на внешний GitHub репозиторий.
+>>> git push
+ 
+9. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+>>> vim new2.txt
+>>> i (for INSERT)
+>>> Yarinovskiy Denis Sergeevich
+>>> 28 y.o.
+>>> 1 scottish-fold cat
+>>> ~500$-700$ for beggining
+>>> esc :wq
+
+ 
+10. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+>>> vim new2.json
+>>> i (for INSERT)
+>>> {
+>>> "firstName":"Denis",
+>>> "lastName":"Yarinovskiy",
+>>> "Age":28,
+>>> "Pets":1,
+>>> "Pay$":600
+>>> }
+
+11. Добавить и закоммитить “new2.txt” одной строчкой.   
+>>> git add new2.txt && git commit -m 'updated new2.txt'ЛИБО git commit -am new2.txt 'updated new2.txt'
+
+12. Добавить и закоммитить “new2.json” одной строчкой.  
+>>> git add new2.json && git commit -m 'updated new2.json'ЛИБО git commit -am new2.json 'updated new2.json'
+
+13. Отправить изменения на внешний репозиторий. 
+>>> git push
+
+14. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+>>>vim new2.xml
+>>> i
+>>> <User_DenisY>
+>>>     <firstname>Denis</firstname>
+>>>  	<lastname>Yarinovskiy</lastname>
+>>>     <age>28</age>
+>>>     <pets>1 Cat</pets>
+>>>	<pay>500$-700$ for beginning</pay>
+>>> </User_DenisY>
+
+15. Добавить и закоммитить “new2.xml” одной строчкой. 
+>>> git add new2.xml && git commit -m 'updated new2.xml'ЛИБО git commit -am new2.xml 'updated new2.xml'
+
+16. Отправить изменения на внешний репозиторий.
+>>> git push
+
+17. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий.
+>>>  git add G23_DenisY_Terminal.txt && git commit -m 'Task 17 previous homework'
+
+18. В веб интерфейсе GitHub создать файл new3.txt.
+>>> Add file -> Create new file -> Name your file 'new3.txt' -> Commit new file
+
+19. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить).
+>>> Yarinovskiy Denis Sergeevich
+>>> 28 y.o.
+>>> 1 Scottish-Fold Cat
+>>> ~500-700$ for beggining
+>>> Eternal Sunshine of the Spotless Mind
+>>> Sillicon Valley
+>>> Chicken
+>>> Spring
+>>> Japan
+
+20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+>>> Task 19-20, updated new3.json -> Commit changes
+
+21. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) 
+>>> git pull
+
+ 22. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить). Всё в формате JSON.
+>>> {
+>>> "FirstName":"Denis",
+>>> "LastName":"Yarinovskiy",
+>>> "Age":28,
+>>> "Pets":1,
+>>> "Pay$":600,
+>>> "FFilm":"Eternal Sunshine of the Spotless Mind",
+>>> "FSeries":"Sillicon Valley",
+>>> "FMeal":"Chicken",  
+>>> "FSeason":"Spring",
+>>> "Country":"Japan"
+>>> }
+
+23. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+>>> Task 22-23, upd/fixed new2.json -> Commit changes
+
+24. Синхронизировать внешний и локальный репозитории 
+>>> git pull
+
+25. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить). Всё в формате XML.
+>>> <User_DenisY>
+>>>	<firstname>Denis</firstname>
+>>>	<lastname>Yarinovskiy</lastname>
+>>>	<age>28</age>
+>>>	<pets>1 Cat</pets>
+>>>	<pay>500$-700$ for beginning</pay>
+>>>	<fFilm>Eternal Sunshine of the Spotless Mind</fFilm>
+>>>	<fSeries>Sillicon Valley</fSeries>
+>>>	<fMeal>Chicken</fMeal>
+>>>	<fSeason>Spring</fSeason>
+>>>	<country>Japan</country>
+>>> </User_DenisY>
+
+26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+>>> Task 25-26, updated new2.xml
+
+27. Синхронизировать внешний и локальный репозитории
+>>> git pull
