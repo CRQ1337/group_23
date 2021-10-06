@@ -1,12 +1,12 @@
 {
 "FirstName":"Denis",
 "LastName":"Yarinovskiy",
-"Age":28
+"Age":28,
 "Pets":"Cat",
-"Pay$":600
+"Pay$":600,
 "FFilm":"Eternal Sunshine of the Spotless Mind",
 "FSeries":"Sillicon Valley",
 "FMeal":"Chicken",  
 "FSeason":"Spring",
-"Country":"Japan",
+"Country":"Japan"
 }
