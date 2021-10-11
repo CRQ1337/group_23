@@ -1,0 +1,11 @@
+>>> CHECKLIST STRUCTURE <<<
+
+- Build (версия ПО/Билда) >>> 10.0
+- Environment (Окружение) >>> Windows 10
+- Test date (Дата проведения) >>> 11.10.2021
+- Tester (Кто проводил) >>> Denis_Y
+- Test Type (Тип тестов)	-Checking (Название проверок)	 -Result (Результаты)		-Commentaries
+  SMOKE				 NAME1			 	  PASSED			COMMENT1 (URL)	
+  SMOKE				 NAME2			          FAILED			MANY BUGS
+  SMOKE				 NAME3			          NOT RUN			empty
+
