@@ -1,0 +1,95 @@
+1. На локальном репозитории сделать ветки для:
+- Postman
+>>> git branch Postman
+
+- Jmeter
+>>> git branch Jmeter
+
+- CheckLists
+>>> git branch CheckLists
+
+- Bug Reports
+>>> git branch Bug_Reports
+
+- SQL
+>>> git branch SQL
+
+- Charles
+>>> git branch Charles
+
+- Mobile testing
+>>> git branch Mobile_testing
+
+проверяю, что ветки созданы >>> git branch -l
+
+2. Запушить все ветки на внешний репозиторий
+>>> git push origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
+либо
+>>> git push -u origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
+
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+>>> git checkout Bug_Reports
+>>> touch BugReport.txt
+>>> vim BugReport.txt
+>>> i (for INSERT)
+>>> >>> BUG REPORT STRUCTURE <<<
+>>> === ОБЯЗАТЕЛЬНЫЕ ПОЛЯ ===
+>>> -Уникальный номер баг-репорта (ID)
+>>> -Заголовок (Summary/Title)
+>>> -Шаги воспроизведения (STR)
+>>> -Фактический результат (Result)
+>>> -Ожидаемый результат/поведение (Expected Result/Behaviour)
+>>> -Окружение (Environment)
+>>> -Серьезность (Severity)
+>>> -Приоритет (Priority)
+>>> === НЕОБЯЗАТЕЛЬНЫЕ ПОЛЯ ===
+>>> -Описание (Description)
+>>> -Версия билда (Build version)
+>>> -Компонент приложения (Component)
+>>> -Предуслование (Preconditions)
+>>> -Постусловние (Postconditions)
+>>> -Доп. материалы (Attachments)
+>>> -Автор (Author)
+>>> -Статус (Status)
+>>> -Назначен на (Assigned to)
+>>> :wq
+
+4. Запушить структуру багрепорта на внешний репозиторий
+>>> git checkout Bug_Reports
+>>> git add BugReport.txt && git commit -m 'added BugReport.txt'
+>>> git push -u origin Bug_Reports
+
+5. Вмержить ветку Bug Reports в main
+>>> git checkout main
+>>> git merge Bug_Reports
+
+6. Запушить main на внешний репозиторий.
+>>> git push -u origin main
+
+7. В ветке CheckLists набросать структуру чек листа.
+>>> git checkout CheckLists
+>>> touch CheckList.txt
+>>> vim CheckList.txt
+>>> i (for INSERT)
+>>> >>> CHECKLIST STRUCTURE <<<
+>>> - Build (версия ПО/Билда) >>> 10.0
+>>> - Environment (Окружение) >>> Windows 10
+>>> - Test date (Дата проведения) >>> 11.10.2021
+>>> - Tester (Кто проводил) >>> Denis_Y
+>>> - Test Type (Тип тестов)        -Checking (Название проверок)    -Result (Результаты)           -Commentaries
+>>>   SMOKE                          NAME1                            PASSED                         COMMENT1 (URL)
+>>>   SMOKE                          NAME2                            FAILED                         MANY BUGS
+>>>   SMOKE                          NAME3                            NOT RUN                        empty
+>>> :wq
+
+8. Запушить структуру на внешний репозиторий
+>>> git checkout CheckLists
+>>> git add CheckList.txt && git commit -m 'added CheckList.txt'
+>>> git push -u origin CheckLists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+>>> в веб-интерфейсе репозитория Compare & Pull Request -> "added CheckList.txt" -> Create pull request -> Merge pull request
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+>>> git checkout main
+>>> git pull
