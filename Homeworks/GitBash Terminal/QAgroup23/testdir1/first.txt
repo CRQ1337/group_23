@@ -4,4 +4,4 @@ the third string
 the fourth string
 the fifth string
 the sixth string
-the seventh strin
+the seventh string
