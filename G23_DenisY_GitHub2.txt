@@ -1,4 +1,4 @@
-1. На локальном репозитории сделать ветки для:
+﻿1. На локальном репозитории сделать ветки для:
 - Postman
 >>> git branch Postman
 
@@ -24,7 +24,7 @@
 
 2. Запушить все ветки на внешний репозиторий
 >>> git push origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
-ëèáî
+либо
 >>> git push -u origin Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
 
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
