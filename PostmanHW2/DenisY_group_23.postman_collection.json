@@ -723,7 +723,7 @@
 									"var u_age = resp_data.person.u_age;\r",
 									"\r",
 									"pm.test(\"u_name's 1st elem = salary\", function () {\r",
-									"    pm.expect(u_name0).to.eql(sSalary)\r",
+									"    pm.expect(u_name1).to.eql(sSalary)\r",
 									"});\r",
 									"console.log(\"u_name's 1st elem not eql salary \", u_nameArr, req_data.salary);\r",
 									"\r",
