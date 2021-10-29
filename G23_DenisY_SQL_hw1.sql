@@ -38,7 +38,7 @@ WHERE name LIKE '%Анна%';
 
 -- 11. Вывести пользователей где в имени в конце есть 8
 SELECT * FROM public.students 
-WHERE name LIKE '%8%';
+WHERE name LIKE '%8';
 
 -- 12. Вывести пользователей где в имени в есть буква а
 SELECT * FROM public.students 
