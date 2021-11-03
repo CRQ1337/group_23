@@ -1,8 +1,8 @@
--- Таблица employees
---1.Создать таблицу employees
+-- РўР°Р±Р»РёС†Р° employees
+--1.РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ employees
 -- -id serial,  primary key,
 -- -employee_name Varchar(50), not null
---2.Наполнить таблицу employee 70 строками.
+--2.РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ employee 70 СЃС‚СЂРѕРєР°РјРё.
  
 CREATE TABLE employees (
    id serial primary key,
@@ -10,220 +10,220 @@ CREATE TABLE employees (
 );
 
 insert into employees (id, employee_name) 
-values (default, 'Иван');
+values (default, 'РРІР°РЅ');
 
 insert into employees (id, employee_name) 
-values (default, 'Анатолий');
+values (default, 'РђРЅР°С‚РѕР»РёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Дмитрий');
+values (default, 'Р”РјРёС‚СЂРёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Олег');
+values (default, 'РћР»РµРі');
 
 insert into employees (id, employee_name) 
-values (default, 'Сергей');
+values (default, 'РЎРµСЂРіРµР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Евгений');
+values (default, 'Р•РІРіРµРЅРёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Евпатий');
+values (default, 'Р•РІРїР°С‚РёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Матвей');
+values (default, 'РњР°С‚РІРµР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Юрий');
+values (default, 'Р®СЂРёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Владимир');
+values (default, 'Р’Р»Р°РґРёРјРёСЂ');
 
 insert into employees (id, employee_name) 
-values (default, 'Данил');
+values (default, 'Р”Р°РЅРёР»');
 
 insert into employees (id, employee_name) 
-values (default, 'Николай');
+values (default, 'РќРёРєРѕР»Р°Р№');
 
 insert into employees (id, employee_name) 
-values (default, 'Анастасия');
+values (default, 'РђРЅР°СЃС‚Р°СЃРёСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Кристина');
+values (default, 'РљСЂРёСЃС‚РёРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Елизавета');
+values (default, 'Р•Р»РёР·Р°РІРµС‚Р°');
 
 insert into employees (id, employee_name) 
-values (default, 'Вячеслав');
+values (default, 'Р’СЏС‡РµСЃР»Р°РІ');
 
 insert into employees (id, employee_name) 
-values (default, 'Людмила');
+values (default, 'Р›СЋРґРјРёР»Р°');
 
 insert into employees (id, employee_name) 
-values (default, 'Юлия');
+values (default, 'Р®Р»РёСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Оксана');
+values (default, 'РћРєСЃР°РЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Лариса');
+values (default, 'Р›Р°СЂРёСЃР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Наталья');
+values (default, 'РќР°С‚Р°Р»СЊСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Ирина');
+values (default, 'РСЂРёРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Мария');
+values (default, 'РњР°СЂРёСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Влада');
+values (default, 'Р’Р»Р°РґР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Владислав');
+values (default, 'Р’Р»Р°РґРёСЃР»Р°РІ');
 
 insert into employees (id, employee_name) 
-values (default, 'Ярослав');
+values (default, 'РЇСЂРѕСЃР»Р°РІ');
 
 insert into employees (id, employee_name) 
-values (default, 'Андрей');
+values (default, 'РђРЅРґСЂРµР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Игорь');
+values (default, 'РРіРѕСЂСЊ');
 
 insert into employees (id, employee_name) 
-values (default, 'Валерия');
+values (default, 'Р’Р°Р»РµСЂРёСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Валерий');
+values (default, 'Р’Р°Р»РµСЂРёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Лолита');
+values (default, 'Р›РѕР»РёС‚Р°');
 
 insert into employees (id, employee_name) 
-values (default, 'Евгения');
+values (default, 'Р•РІРіРµРЅРёСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Денис');
+values (default, 'Р”РµРЅРёСЃ');
 
 insert into employees (id, employee_name) 
-values (default, 'Урсула');
+values (default, 'РЈСЂСЃСѓР»Р°');
 
 insert into employees (id, employee_name) 
-values (default, 'Святослав');
+values (default, 'РЎРІСЏС‚РѕСЃР»Р°РІ');
 
 insert into employees (id, employee_name) 
-values (default, 'Артемий');
+values (default, 'РђСЂС‚РµРјРёР№');
 
 insert into employees (id, employee_name) 
-values (default, 'Варвара');
+values (default, 'Р’Р°СЂРІР°СЂР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Дарина');
+values (default, 'Р”Р°СЂРёРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Диана');
+values (default, 'Р”РёР°РЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Фёдор');
+values (default, 'Р¤С‘РґРѕСЂ');
 
 insert into employees (id, employee_name) 
-values (default, 'София');
+values (default, 'РЎРѕС„РёСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Артем');
+values (default, 'РђСЂС‚РµРј');
 
 insert into employees (id, employee_name) 
-values (default, 'Маргарита');
+values (default, 'РњР°СЂРіР°СЂРёС‚Р°');
 
 insert into employees (id, employee_name) 
-values (default, 'Алина');
+values (default, 'РђР»РёРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Эмиль');
+values (default, 'Р­РјРёР»СЊ');
 
 insert into employees (id, employee_name) 
-values (default, 'Виктор');
+values (default, 'Р’РёРєС‚РѕСЂ');
 
 insert into employees (id, employee_name) 
-values (default, 'Вадим');
+values (default, 'Р’Р°РґРёРј');
 
 insert into employees (id, employee_name) 
-values (default, 'Александр');
+values (default, 'РђР»РµРєСЃР°РЅРґСЂ');
 
 insert into employees (id, employee_name) 
-values (default, 'Александра');
+values (default, 'РђР»РµРєСЃР°РЅРґСЂР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Елена');
+values (default, 'Р•Р»РµРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Полина');
+values (default, 'РџРѕР»РёРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Ульяна');
+values (default, 'РЈР»СЊСЏРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Анна');
+values (default, 'РђРЅРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Татьяна');
+values (default, 'РўР°С‚СЊСЏРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Милана');
+values (default, 'РњРёР»Р°РЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Кирилл');
+values (default, 'РљРёСЂРёР»Р»');
 
 insert into employees (id, employee_name) 
-values (default, 'Семён');
+values (default, 'РЎРµРјС‘РЅ');
 
 insert into employees (id, employee_name) 
-values (default, 'Илья');
+values (default, 'РР»СЊСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Руслан');
+values (default, 'Р СѓСЃР»Р°РЅ');
 
 insert into employees (id, employee_name) 
-values (default, 'Антон');
+values (default, 'РђРЅС‚РѕРЅ');
 
 insert into employees (id, employee_name) 
-values (default, 'Мадина');
+values (default, 'РњР°РґРёРЅР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Тимур');
+values (default, 'РўРёРјСѓСЂ');
 
 insert into employees (id, employee_name) 
-values (default, 'Злата');
+values (default, 'Р—Р»Р°С‚Р°');
 
 insert into employees (id, employee_name) 
-values (default, 'Зоя');
+values (default, 'Р—РѕСЏ');
 
 insert into employees (id, employee_name) 
-values (default, 'Любовь');
+values (default, 'Р›СЋР±РѕРІСЊ');
 
 insert into employees (id, employee_name) 
-values (default, 'Василиса');
+values (default, 'Р’Р°СЃРёР»РёСЃР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Адам');
+values (default, 'РђРґР°Рј');
 
 insert into employees (id, employee_name) 
-values (default, 'Ева');
+values (default, 'Р•РІР°');
 
 insert into employees (id, employee_name) 
-values (default, 'Максим');
+values (default, 'РњР°РєСЃРёРј');
 
 insert into employees (id, employee_name) 
-values (default, 'Лев');
+values (default, 'Р›РµРІ');
 
--- Таблица salary
---3.Создать таблицу salary
+-- РўР°Р±Р»РёС†Р° salary
+--3.РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ salary
 -- -id. Serial  primary key,
 -- -monthly_salary. Int, not null
---4.Наполнить таблицу salary 15 строками.
+--4.РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ salary 15 СЃС‚СЂРѕРєР°РјРё.
 -- -1000
 -- -1100
 -- -1200
@@ -295,13 +295,13 @@ insert into salary (id, monthly_salary)
 values (default, 2500);
 
 
--- Таблица employee_salary
---5.Создать таблицу employee_salary
+-- РўР°Р±Р»РёС†Р° employee_salary
+--5.РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ employee_salary
 -- -id. Serial  primary key,
 -- -employee_id. Int, not null, unique
 -- -salary_id. Int, not null
---6.Наполнить таблицу employee_salary 40 строками:
--- -в 10 строк из 40 вставить несуществующие employee_id
+--6.РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ employee_salary 40 СЃС‚СЂРѕРєР°РјРё:
+-- -РІ 10 СЃС‚СЂРѕРє РёР· 40 РІСЃС‚Р°РІРёС‚СЊ РЅРµСЃСѓС‰РµСЃС‚РІСѓСЋС‰РёРµ employee_id
 
 CREATE TABLE employee_salary (
   id serial primary key,
@@ -319,12 +319,12 @@ insert into employee_salary (id, employee_id, salary_id) values
 (default, 72, 3) , (default, 81, 9) , (default, 78, 8) , (default, 76, 12) , (default, 85, 5),
 (default, 99, 5) , (default, 92, 7) , (default, 95, 2) , (default, 84, 13) , (default, 90, 14);
 
--- Таблица roles
---7.Создать таблицу roles
+-- РўР°Р±Р»РёС†Р° roles
+--7.РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ roles
 -- -id Serial  primary key,
 -- -role_name int not null unique
---8.Поменять тип столба role_name с int на varchar(30)
---9.Наполнить таблицу roles 20 строками:
+--8.РџРѕРјРµРЅСЏС‚СЊ С‚РёРї СЃС‚РѕР»Р±Р° role_name СЃ int РЅР° varchar(30)
+--9.РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ roles 20 СЃС‚СЂРѕРєР°РјРё:
 
 CREATE TABLE roles (
   id serial primary key,
@@ -343,12 +343,12 @@ insert into roles (id, role_name) values
 (default, 'Project Manager') , (default, 'Designer') , (default, 'HR') , (default, 'CEO'), (default, 'Sales manager'),
 (default, 'Junior Automation QA engineer') , (default, 'Middle Automation QA engineer') , (default, 'Senior Automation QA engineer');
 
---Таблица roles_employee
---10.Создать таблицу roles_employee
+--РўР°Р±Р»РёС†Р° roles_employee
+--10.РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ roles_employee
 -- -id. Serial  primary key,
--- -employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
--- -role_id. Int, not null (внешний ключ для таблицы roles, поле id)
---11.Наполнить таблицу roles_employee 40 строками:
+-- -employee_id. Int, not null, unique (РІРЅРµС€РЅРёР№ РєР»СЋС‡ РґР»СЏ С‚Р°Р±Р»РёС†С‹ employees, РїРѕР»Рµ id)
+-- -role_id. Int, not null (РІРЅРµС€РЅРёР№ РєР»СЋС‡ РґР»СЏ С‚Р°Р±Р»РёС†С‹ roles, РїРѕР»Рµ id)
+--11.РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ roles_employee 40 СЃС‚СЂРѕРєР°РјРё:
 
 CREATE TABLE roles_employee (
   id serial primary key,
