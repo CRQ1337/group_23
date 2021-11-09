@@ -152,7 +152,7 @@ inner join roles_employee re on re.employee_id = e.id
 inner join roles r on re.role_id = r.id 
 inner join employee_salary es on es.employee_id = e.id
 inner join salary s on es.salary_id = s.id 
-where role_name like '%QA%'
+where role_name like '%Junior QA%'
 
 -- 21. Вывести среднюю зарплату всех Junior специалистов
 select AVG(s.monthly_salary)
@@ -161,7 +161,7 @@ inner join roles_employee re on re.employee_id = e.id
 inner join roles r on re.role_id = r.id 
 inner join employee_salary es on es.employee_id = e.id
 inner join salary s on es.salary_id = s.id 
-where role_name like '%QA%'
+where role_name like '%Junior%'
 
 -- 22. Вывести сумму зарплат JS разработчиков
 select Sum(s.monthly_salary)
